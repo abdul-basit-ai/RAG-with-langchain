@@ -1,2 +1,2 @@
-# RAG using LANGCHAIN on documentation
+# RAG on documentation using LANGCHAIN 
 
