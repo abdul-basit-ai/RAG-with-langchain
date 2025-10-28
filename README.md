@@ -1,5 +1,5 @@
 # RAG on documentation using LANGCHAIN 
-### Pdf contain the notes
+### Pdf contains the detailed notes
 In this project, I build a RAG based system for answering questions on hugging face documentation using hugging face model "HuggingFaceH4/zephyr-7b-beta" which is small but powerful model. I also used LangChian as it offers variety of options for vectore database.
 I first splitted the documents from my dataset into smaller chunks which will be a knowledge base for our model. The goal is to prepare a collection of semantically relevant snippets. I used recursive chunking here to get the chunks from data where first it will break from double line the single line, followed by where sentence end then finally where it fits our chunk size length. Then these chunks are embedded using embedding model "thenlper/gte-small".
 
